@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Home</title>
+  </head>
+  <body data-rsssl="1">
+    <div id="container">
+      <section>
+        <h3 style="text-align: center">XUẤT HÀNG</h3>
+        <div>
+          <label for="">Nhập mã cân</label>
+          <input required="true" id="plu" type="text" />
+        </div>
+        <div>
+          <label for="">Nhập số lượng</label>
+          <input required="true" id="count" type="text" />
+        </div>
+        <button id="add">Add</button>
+        <button id="print">Print</button>
+      </section>
+      <section id="printing">
+        <h3 style="text-align: center">XUẤT HÀNG</h3>
+        <table id="myTable">
+          <thead>
+            <tr>
+              <th>Tên hàng</th>
+              <th>Số lượng</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2950930</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>2950911</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>

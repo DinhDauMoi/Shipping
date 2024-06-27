@@ -1,0 +1,22 @@
+.container{
+    /* display: flex; */
+}
+section:first-child{
+    height: 30vh;
+    margin-bottom: 1%;
+}
+section{
+    border-radius: 5px;
+    border:1px solid black;
+    width: 100%;
+    height: auto;
+}
+@media print {
+    
+    section:first-child{
+        display: none;
+    }
+    .del-when-print{
+        display: none;
+    }
+}
